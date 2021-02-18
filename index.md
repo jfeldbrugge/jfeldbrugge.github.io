@@ -13,7 +13,7 @@ I am a Postdoctoral researcher at the <a href="https://www.perimeterinstitute.ca
 <figcaption> Fig.2 - A two-dimensional lens as a function of the frequency. </figcaption>
 </figure>
 
-* <a href=""> One-piece Cody kite</a>: In the nineteenth century <a href="https://en.wikipedia.org/wiki/Samuel_Franklin_Cody">Samuel Franklin Cody</a> developed the *Cody War-Kites*, which were large kites able to lift persons to great hight, and were used by the British before World War I as a smaller alternative to balloons for artillery spotting. More recently, Ton Vinken developed an adaptation of the Cody kite which can be constructed out of a single piece of material. Unfortunately, it is currently difficult to find plans online. Inspired by this idea, I constructed a plan which I hope will encourage others to build the one-piece Cody kite.
+* <a href="https://jfeldbrugge.github.io/One-piece-Cody/"> One-piece Cody kite</a>: In the nineteenth century <a href="https://en.wikipedia.org/wiki/Samuel_Franklin_Cody">Samuel Franklin Cody</a> developed the *Cody War-Kites*, which were large kites able to lift persons to great hight, and were used by the British before World War I as a smaller alternative to balloons for artillery spotting. More recently, Ton Vinken developed an adaptation of the Cody kite which can be constructed out of a single piece of material. Unfortunately, it is currently difficult to find plans online. Inspired by this idea, I constructed a plan which I hope will encourage others to build the one-piece Cody kite.
 <figure>
 <img src="figures/Cody.png" width=100% />
 <figcaption> Fig.3 - One piece cody kite. </figcaption>
