@@ -1,3 +1,3 @@
-# Classification of compact two-dimensional manifolds
+# jfeldbrugge.github.io
 
 See the website https://jfeldbrugge.github.io/
