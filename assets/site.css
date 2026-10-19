@@ -1,0 +1,162 @@
+/* Shared stylesheet for jfeldbrugge.github.io */
+
+:root {
+  --bg: #fdfcfa;
+  --text: #1f2328;
+  --muted: #5d636b;
+  --rule: #e4e1da;
+  --accent: #1d4f91;
+  --accent-hover: #0f3466;
+  --header-bg: rgba(253, 252, 250, 0.92);
+  --serif: "Source Serif 4", Georgia, "Times New Roman", serif;
+  --sans: -apple-system, BlinkMacSystemFont, "Helvetica Neue", "Segoe UI", Arial, sans-serif;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #16181c;
+    --text: #e6e4df;
+    --muted: #a3a7ad;
+    --rule: #2e3238;
+    --accent: #8ab4f0;
+    --accent-hover: #b5d0f7;
+    --header-bg: rgba(22, 24, 28, 0.92);
+  }
+}
+
+*, *::before, *::after { box-sizing: border-box; }
+
+html { -webkit-text-size-adjust: 100%; }
+
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--text);
+  font-family: var(--serif);
+  font-size: 18px;
+  line-height: 1.6;
+}
+
+a { color: var(--accent); text-decoration: none; }
+a:hover { color: var(--accent-hover); text-decoration: underline; }
+
+img { max-width: 100%; height: auto; display: block; }
+
+.wrap {
+  max-width: 860px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+/* Header and navigation */
+.site-header {
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  background: var(--header-bg);
+  backdrop-filter: blur(6px);
+  border-bottom: 1px solid var(--rule);
+}
+.site-header .wrap {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 4px 24px;
+  padding-top: 14px;
+  padding-bottom: 14px;
+}
+.site-name {
+  font-size: 20px;
+  font-weight: 600;
+  color: var(--text);
+}
+.site-name:hover { color: var(--text); text-decoration: none; }
+.site-nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px 20px;
+  font-family: var(--sans);
+  font-size: 15px;
+}
+.site-nav a { color: var(--muted); }
+.site-nav a:hover { color: var(--text); text-decoration: none; }
+.site-nav a[aria-current="page"] {
+  color: var(--text);
+  box-shadow: inset 0 -2px 0 var(--accent);
+}
+
+main { padding-top: 40px; padding-bottom: 56px; }
+
+h1, h2, h3 { font-weight: 600; line-height: 1.25; scroll-margin-top: 80px; }
+h1 { font-size: 34px; margin: 0 0 24px; }
+h2 {
+  font-size: 24px;
+  margin: 44px 0 12px;
+  padding-top: 8px;
+  border-top: 1px solid var(--rule);
+}
+h3 { font-size: 19px; margin: 28px 0 8px; }
+p { margin: 0 0 16px; }
+
+.lead { font-size: 20px; }
+.muted { color: var(--muted); }
+
+/* Homepage */
+.intro {
+  display: grid;
+  grid-template-columns: 240px 1fr;
+  gap: 36px;
+  align-items: start;
+}
+.intro .portrait img { border-radius: 4px; }
+.intro .portrait figcaption {
+  margin-top: 8px;
+  font-family: var(--sans);
+  font-size: 14px;
+  text-align: center;
+}
+.role { font-family: var(--sans); font-size: 15px; color: var(--muted); margin-bottom: 20px; }
+address { font-style: normal; }
+.button-row { display: flex; flex-wrap: wrap; gap: 10px; margin: 8px 0 16px; font-family: var(--sans); font-size: 15px; }
+.button-row a {
+  border: 1px solid var(--rule);
+  border-radius: 4px;
+  padding: 6px 12px;
+}
+.button-row a:hover { border-color: var(--accent); text-decoration: none; }
+
+/* Figures */
+figure { margin: 24px 0; }
+/* Some figures have transparent backgrounds with black axes; keep them legible in dark mode. */
+figure img { background: #fff; }
+figure img.framed { border: 2px solid #000; }
+figure.float-right { float: right; width: 40%; margin: 4px 0 16px 28px; }
+figcaption { font-size: 15px; color: var(--muted); margin-top: 6px; }
+.clear { clear: both; }
+
+/* Publication lists */
+.pubs { list-style: none; padding: 0; margin: 0; }
+.pubs li { margin: 0 0 16px; padding-left: 0; }
+.pubs .title { font-weight: 600; }
+.pubs .venue { font-style: italic; }
+.pubs .links { font-family: var(--sans); font-size: 14px; white-space: nowrap; }
+
+.site-footer {
+  border-top: 1px solid var(--rule);
+  padding: 20px 0 32px;
+  font-family: var(--sans);
+  font-size: 14px;
+  color: var(--muted);
+}
+
+@media (max-width: 640px) {
+  body { font-size: 17px; }
+  .site-header { position: static; }
+  h1, h2, h3 { scroll-margin-top: 16px; }
+  h1 { font-size: 28px; }
+  main { padding-top: 28px; }
+  .intro { grid-template-columns: 1fr; gap: 20px; }
+  .intro .portrait { max-width: 220px; }
+  figure.float-right { float: none; width: 100%; margin: 20px 0; }
+}
