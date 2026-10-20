@@ -1,6 +1,6 @@
 ---
 pagetitle: Job Leon Feldbrugge
-description: Job Feldbrugge, theoretical physicist and cosmologist at the Leung Center for Cosmology and Particle Astrophysics, National Taiwan University, and Member of the Institute for Advanced Study.
+description: Job Leon Feldbrugge, theoretical physicist and cosmologist at the Leung Center for Cosmology and Particle Astrophysics, National Taiwan University, and Member of the Institute for Advanced Study.
 og-title: Job Leon Feldbrugge
 og-description: "Theoretical physics and cosmology: real-time path integrals, wave optics and the caustic skeleton of the cosmic web."
 og-image: https://jfeldbrugge.github.io/Job_Feldbrugge_files/web/Job_photo.jpg
@@ -11,7 +11,7 @@ updated: October 2026
 ::::: intro
 
 ::: portrait
-[![](Job_Feldbrugge_files/web/Job_photo.jpg){alt="Portrait of Job Feldbrugge (opens CV)" width="809" height="900"}](Job_Feldbrugge_files/Literature/Job_Feldbrugge_CV.pdf){title="Curriculum Vitae (pdf)"}
+[![](Job_Feldbrugge_files/web/Job_photo.jpg){alt="Portrait of Job Leon Feldbrugge (opens CV)" width="809" height="900"}](Job_Feldbrugge_files/Literature/Job_Feldbrugge_CV.pdf){title="Curriculum Vitae (pdf)"}
 :::
 
 :::: intro-text

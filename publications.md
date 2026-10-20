@@ -1,6 +1,6 @@
 ---
 pagetitle: Publications · Job Leon Feldbrugge
-description: "Publications and theses of Job Feldbrugge: real-time path integrals, wave optics, the caustic skeleton of the cosmic web, quantum cosmology and topology of random fields."
+description: "Publications and theses of Job Leon Feldbrugge: real-time path integrals, wave optics, the caustic skeleton of the cosmic web, quantum cosmology and topology of random fields."
 nav-publications: true
 updated: October 2026
 ---
