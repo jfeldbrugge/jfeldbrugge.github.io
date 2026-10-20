@@ -1,5 +1,5 @@
 ---
-pagetitle: Research · Job Feldbrugge
+pagetitle: Research · Job Leon Feldbrugge
 description: "Research of Job Feldbrugge: real-time path integrals, Picard-Lefschetz theory and resurgence, wave optics in astronomy, and the caustic skeleton of the cosmic web."
 nav-research: true
 updated: October 2026
