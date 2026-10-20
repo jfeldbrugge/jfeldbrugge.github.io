@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>$pagetitle$</title>
+$if(description)$
+  <meta name="description" content="$description$">
+$endif$
+$if(og-title)$
+  <meta property="og:title" content="$og-title$">
+  <meta property="og:description" content="$og-description$">
+  <meta property="og:image" content="$og-image$">
+$endif$
+  <link rel="icon" type="image/png" sizes="32x32" href="Job_Feldbrugge_files/icon_ntu_32.png">
+  <link rel="icon" type="image/png" sizes="180x180" href="Job_Feldbrugge_files/icon_ntu_180.png">
+  <link rel="apple-touch-icon" href="Job_Feldbrugge_files/icon_ntu_180.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;1,8..60,400&display=swap">
+  <link rel="stylesheet" href="assets/site.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="wrap">
+      <a class="site-name" href="index.html">Job Feldbrugge</a>
+      <nav class="site-nav">
+        <a href="index.html"$if(nav-home)$ aria-current="page"$endif$>Home</a>
+        <a href="research.html"$if(nav-research)$ aria-current="page"$endif$>Research</a>
+        <a href="publications.html"$if(nav-publications)$ aria-current="page"$endif$>Publications</a>
+        <a href="https://jfeldbrugge.github.io/Projects-and-Codes/">Projects &amp; Code</a>
+        <a href="Job_Feldbrugge_files/Literature/Job_Feldbrugge_CV.pdf">CV</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="wrap">
+$body$
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap">&copy; 2026 Job Feldbrugge &middot; Last updated $updated$</div>
+  </footer>
+
+  <!-- StatCounter -->
+  <script>
+    var sc_project = 11232453;
+    var sc_invisible = 1;
+    var sc_security = "d34762e5";
+  </script>
+  <script src="https://www.statcounter.com/counter/counter.js" async></script>
+</body>
+</html>

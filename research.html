@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Research &middot; Job Feldbrugge</title>
+  <title>Research · Job Feldbrugge</title>
   <meta name="description" content="Research of Job Feldbrugge: real-time path integrals, Picard-Lefschetz theory and resurgence, wave optics in astronomy, and the caustic skeleton of the cosmic web.">
   <link rel="icon" type="image/png" sizes="32x32" href="Job_Feldbrugge_files/icon_ntu_32.png">
   <link rel="icon" type="image/png" sizes="180x180" href="Job_Feldbrugge_files/icon_ntu_180.png">
@@ -28,76 +28,62 @@
   </header>
 
   <main class="wrap">
-    <h1>Research</h1>
+<h1 id="research">Research</h1>
+<div class="lead">
+<p>I work at the interface of mathematics, theoretical physics and cosmology. A recurring theme is interference: whenever many paths contribute to a physical amplitude, the outcome is described by an oscillatory integral, and the most interesting physics often happens at caustics, where saddle points merge and the classical (geometric-optics) approximation breaks down, even though the integral itself remains finite.</p>
+</div>
+<p>I use tools from complex analysis and singularity theory, including Picard–Lefschetz theory, resurgence and catastrophe theory, to make such integrals well defined and computable, and apply them to problems ranging from the formation of the cosmic web and radio astronomy to quantum mechanics and quantum cosmology. Throughout, I aim to study observable phenomena with conservative assumptions, in a critical and mathematically careful way. The <a href="publications.html">publications page</a> has the complete list of papers.</p>
+<h2 id="cosmic-web">The caustic skeleton of the cosmic web</h2>
+<div class="float-right">
+<figure>
+<img src="Job_Feldbrugge_files/web/Caustic_Skeleton_3D.jpg" width="960" height="991" alt="Three-dimensional rendering of the caustic skeleton overlaid on the dark matter distribution in a simulation box" />
+<figcaption>The caustic skeleton of the cosmic web in a three-dimensional simulation.</figcaption>
+</figure>
+</div>
+<p>Galaxies are organised in a cosmic web of clusters, filaments, walls and voids. Following the early work of Zel’dovich, Arnol’d and collaborators, I study this structure through the caustics that form as dark matter streams cross. Using Lagrangian catastrophe theory, formulated in terms of the eigenvalues and eigenvectors of the deformation tensor, the <a href="https://arxiv.org/abs/1703.09598">caustic skeleton</a> identifies the elements of the cosmic web directly from the primordial density field.</p>
+<p>Current work with Rien van de Weygaert and our students asks <a href="https://arxiv.org/abs/2405.20475">what makes a cosmic filament</a> and whether <a href="https://arxiv.org/abs/2510.02419">cosmic walls are real</a>, builds <a href="https://arxiv.org/abs/2212.07840">non-linear constrained realizations</a> and <a href="https://arxiv.org/abs/2301.07200">statistics of the deformation eigenvalue fields</a>, and connects the skeleton to observations: <a href="https://arxiv.org/abs/2604.18209">galaxy populations in IllustrisTNG</a> and <a href="https://arxiv.org/abs/2604.22213">the local cosmic web around the Coma cluster</a>. To reconstruct density and velocity fields from simulations, I developed the <a href="https://arxiv.org/abs/2402.16234">phase-space Delaunay tessellation field estimator</a>.</p>
+<div class="clear">
 
-    <p class="lead">
-      I work at the interface of mathematics, theoretical physics and cosmology. A recurring theme is interference: whenever many paths contribute to a physical amplitude, the outcome is described by an oscillatory integral, and the most interesting physics often happens at caustics, where saddle points merge and the classical (geometric-optics) approximation breaks down, even though the integral itself remains finite.
-    </p>
-    <p>
-      I use tools from complex analysis and singularity theory, including Picard&ndash;Lefschetz theory, resurgence and catastrophe theory, to make such integrals well defined and computable, and apply them to problems ranging from the formation of the cosmic web and radio astronomy to quantum mechanics and quantum cosmology. Throughout, I aim to study observable phenomena with conservative assumptions, in a critical and mathematically careful way. The <a href="publications.html">publications page</a> has the complete list of papers.
-    </p>
+</div>
+<h2 id="path-integrals">Real-time path integrals</h2>
+<div class="float-right">
+<figure>
+<img src="Job_Feldbrugge_files/web/Rosen-Morse_Well.jpg" loading="lazy" width="880" height="860" alt="Interference pattern in the real-time propagator for a particle in a potential well, plotted against initial and final position" />
+<figcaption>Interference in the real-time propagator |G(x<sub>1</sub>, x<sub>0</sub>)|<sup>2</sup> of a particle in the Rosen–Morse well V(x) = −1/cosh<sup>2</sup>x.</figcaption>
+</figure>
+</div>
+<p>Feynman’s path integral sums over all histories with an oscillating phase. In its original real-time (Lorentzian) form it is notoriously hard to define and to evaluate, which is why one usually Wick-rotates to imaginary time. Picard–Lefschetz theory offers an alternative: by deforming the integration domain into the complex plane onto the Lefschetz thimbles, the oscillatory integral becomes absolutely convergent and can be evaluated efficiently. In this picture the Wick rotation and the <em>iε</em> prescription emerge as special cases.</p>
+<p>With collaborators I have used this approach to <a href="https://arxiv.org/abs/2207.12798">establish the existence of real-time quantum path integrals</a>, to <a href="https://arxiv.org/abs/2501.16323">evaluate them efficiently</a>, to describe <a href="https://arxiv.org/abs/2309.12420">quantum reflection and tunnelling with complex classical paths</a> and <a href="https://arxiv.org/abs/2508.17578">step potentials</a>, and to understand what happens when saddle points <a href="https://arxiv.org/abs/2309.12427">cross singularities</a>. The same saddle-point methods also apply to <a href="https://arxiv.org/abs/2510.12545">attosecond physics</a>, where electrons are driven by strong laser fields.</p>
+<p>These ideas grew out of my PhD work on <strong>Lorentzian quantum cosmology</strong> with Neil Turok and Jean-Luc Lehners. Using Picard–Lefschetz theory we reevaluated the <a href="https://arxiv.org/abs/1703.02076">gravitational path integral</a> for the no-boundary and tunnelling proposals for the beginning of the universe, and found that, although well defined, they lead to <a href="https://arxiv.org/abs/1705.00192">unacceptably large fluctuations</a>.</p>
+<div class="clear">
 
-    <h2 id="cosmic-web">The caustic skeleton of the cosmic web</h2>
-    <figure class="float-right">
-      <img src="Job_Feldbrugge_files/web/Caustic_Skeleton_3D.jpg" alt="Three-dimensional rendering of the caustic skeleton overlaid on the dark matter distribution in a simulation box" width="960" height="991">
-      <figcaption>The caustic skeleton of the cosmic web in a three-dimensional simulation.</figcaption>
-    </figure>
-    <p>
-      Galaxies are organised in a cosmic web of clusters, filaments, walls and voids. Following the early work of Zel&rsquo;dovich, Arnol&rsquo;d and collaborators, I study this structure through the caustics that form as dark matter streams cross. Using Lagrangian catastrophe theory, formulated in terms of the eigenvalues and eigenvectors of the deformation tensor, the <a href="https://arxiv.org/abs/1703.09598">caustic skeleton</a> identifies the elements of the cosmic web directly from the primordial density field.
-    </p>
-    <p>
-      Current work with Rien van de Weygaert and our students asks <a href="https://arxiv.org/abs/2405.20475">what makes a cosmic filament</a> and whether <a href="https://arxiv.org/abs/2510.02419">cosmic walls are real</a>, builds <a href="https://arxiv.org/abs/2212.07840">non-linear constrained realizations</a> and <a href="https://arxiv.org/abs/2301.07200">statistics of the deformation eigenvalue fields</a>, and connects the skeleton to observations: <a href="https://arxiv.org/abs/2604.18209">galaxy populations in IllustrisTNG</a> and <a href="https://arxiv.org/abs/2604.22213">the local cosmic web around the Coma cluster</a>. To reconstruct density and velocity fields from simulations, I developed the <a href="https://arxiv.org/abs/2402.16234">phase-space Delaunay tessellation field estimator</a>.
-    </p>
-    <div class="clear"></div>
+</div>
+<h2 id="resurgence">Resurgence and hyperasymptotics</h2>
+<div class="float-right">
+<figure>
+<img src="Job_Feldbrugge_files/web/South-East_Rule.png" class="framed" loading="lazy" width="798" height="800" alt="Sketch of the Borel plane with numbered critical points, the adjacency graph connecting them, the integration domain along the imaginary axis and the shaded South-East region" />
+<figcaption>The South-East rule in the Borel plane. The original integration domain (blue) runs along the imaginary axis; relevant complex critical points lie in the green region to its right, and their relevance is decided by the adjacency graph (red).</figcaption>
+</figure>
+</div>
+<p>Saddle-point expansions are typically divergent, and resurgence explains how: the late terms of the expansion around one saddle point encode the contributions of the others. Organising these contributions into a transseries and resumming it, by Borel or hyperasymptotic methods, turns a divergent series into approximations that are accurate to exponential order and come with error estimates.</p>
+<p>A key difficulty is deciding which saddle points, real or complex, actually contribute to an integral. In Picard–Lefschetz theory this requires computing the flow lines of the integrand in the complexified domain, which quickly becomes impractical in many dimensions. With Inês Aniceto and Chris Howls I introduced the <a href="https://arxiv.org/abs/2606.28271">South-East rule</a>, a simple geometric algorithm that decides the relevance of saddle points from their positions in the Borel plane and their adjacency, without computing any flows. This is a step towards systematically identifying instanton contributions in real-time path integrals. In <a href="https://arxiv.org/abs/2610.22767">recent work</a> with Samuel Crew, I developed an algebraic way to obtain the input for this rule: a finite-dimensional Gauss–Manin system generates the asymptotic expansions of all saddle points, and the monodromy of its Borel transform determines the Stokes constants and hence the adjacency of the saddles. Combined with the South-East rule, this yields superasymptotic and hyperasymptotic approximations without computing any gradient flows; the method is implemented in the Julia package Resurgence.jl. With Samuel Crew and Ue-Li Pen I also applied these ideas to <a href="https://arxiv.org/abs/2602.21493">wave optics in astronomy</a>, deriving the refractive expansion to all orders and resumming it to describe lensing at all frequencies.</p>
+<div class="clear">
 
-    <h2 id="path-integrals">Real-time path integrals</h2>
-    <figure class="float-right">
-      <img src="Job_Feldbrugge_files/web/Rosen-Morse_Well.jpg" alt="Interference pattern in the real-time propagator for a particle in a potential well, plotted against initial and final position" width="880" height="860" loading="lazy">
-      <figcaption>Interference in the real-time propagator |G(x<sub>1</sub>, x<sub>0</sub>)|<sup>2</sup> of a particle in the Rosen&ndash;Morse well V(x) = &minus;1/cosh<sup>2</sup>x.</figcaption>
-    </figure>
-    <p>
-      Feynman&rsquo;s path integral sums over all histories with an oscillating phase. In its original real-time (Lorentzian) form it is notoriously hard to define and to evaluate, which is why one usually Wick-rotates to imaginary time. Picard&ndash;Lefschetz theory offers an alternative: by deforming the integration domain into the complex plane onto the Lefschetz thimbles, the oscillatory integral becomes absolutely convergent and can be evaluated efficiently. In this picture the Wick rotation and the <i>i&epsilon;</i> prescription emerge as special cases.
-    </p>
-    <p>
-      With collaborators I have used this approach to <a href="https://arxiv.org/abs/2207.12798">establish the existence of real-time quantum path integrals</a>, to <a href="https://arxiv.org/abs/2501.16323">evaluate them efficiently</a>, to describe <a href="https://arxiv.org/abs/2309.12420">quantum reflection and tunnelling with complex classical paths</a> and <a href="https://arxiv.org/abs/2508.17578">step potentials</a>, and to understand what happens when saddle points <a href="https://arxiv.org/abs/2309.12427">cross singularities</a>. The same saddle-point methods also apply to <a href="https://arxiv.org/abs/2510.12545">attosecond physics</a>, where electrons are driven by strong laser fields.
-    </p>
-    <p>
-      These ideas grew out of my PhD work on <b>Lorentzian quantum cosmology</b> with Neil Turok and Jean-Luc Lehners. Using Picard&ndash;Lefschetz theory we reevaluated the <a href="https://arxiv.org/abs/1703.02076">gravitational path integral</a> for the no-boundary and tunnelling proposals for the beginning of the universe, and found that, although well defined, they lead to <a href="https://arxiv.org/abs/1705.00192">unacceptably large fluctuations</a>.
-    </p>
+</div>
+<h2 id="wave-optics">Wave optics in astronomy</h2>
+<div class="float-right">
+<figure>
+<img src="Job_Feldbrugge_files/web/Binary_Lens.jpg" loading="lazy" width="625" height="845" alt="Wave-optics intensity pattern of a binary gravitational lens, with interference fringes inside the caustic marked by a dotted white curve" />
+<figcaption>Intensity pattern of a binary gravitational lens in wave optics, with lens masses in a 1:2 ratio separated by one Einstein radius. The dotted white curve is the caustic of geometric optics.</figcaption>
+</figure>
+</div>
+<p>When the wavelength of light is not small compared to the scales of a lens, geometric optics fails and lensing becomes an interference problem described by a Fresnel–Kirchhoff integral. This regime is directly relevant for radio astronomy, including pulsar scintillation and fast radio bursts, and for the gravitational lensing of gravitational waves.</p>
+<p>I developed numerical methods based on Picard–Lefschetz theory for <a href="https://arxiv.org/abs/1909.04632">oscillatory path integrals in radio astronomy</a>, and applied them to <a href="https://arxiv.org/abs/2010.03089">multi-plane lensing</a>, <a href="https://arxiv.org/abs/2008.01154">binary lenses</a> and <a href="https://arxiv.org/abs/2410.03828">rotating stars</a>, and to the <a href="https://arxiv.org/abs/2204.12004">different regimes of astrophysical lensing</a>. Most recently we have used <a href="#resurgence">resurgence and hyperasymptotics</a> to describe wave-optics lensing at all frequencies. Related complex methods also give a way <a href="https://arxiv.org/abs/2304.13064">beyond the Limber approximation</a> for angular power spectra. Code for one-dimensional integrals is available at <a href="https://p-lpi.github.io/">p-lpi.github.io</a>.</p>
+<div class="clear">
 
-    <div class="clear"></div>
-
-    <h2 id="resurgence">Resurgence and hyperasymptotics</h2>
-    <figure class="float-right">
-      <img class="framed" src="Job_Feldbrugge_files/web/South-East_Rule.png" alt="Sketch of the Borel plane with numbered critical points, the adjacency graph connecting them, the integration domain along the imaginary axis and the shaded South-East region" width="798" height="800" loading="lazy">
-      <figcaption>The South-East rule in the Borel plane. The original integration domain (blue) runs along the imaginary axis; relevant complex critical points lie in the green region to its right, and their relevance is decided by the adjacency graph (red).</figcaption>
-    </figure>
-    <p>
-      Saddle-point expansions are typically divergent, and resurgence explains how: the late terms of the expansion around one saddle point encode the contributions of the others. Organising these contributions into a transseries and resumming it, by Borel or hyperasymptotic methods, turns a divergent series into approximations that are accurate to exponential order and come with error estimates.
-    </p>
-    <p>
-      A key difficulty is deciding which saddle points, real or complex, actually contribute to an integral. In Picard&ndash;Lefschetz theory this requires computing the flow lines of the integrand in the complexified domain, which quickly becomes impractical in many dimensions. With In&ecirc;s Aniceto and Chris Howls I introduced the <a href="https://arxiv.org/abs/2606.28271">South-East rule</a>, a simple geometric algorithm that decides the relevance of saddle points from their positions in the Borel plane and their adjacency, without computing any flows. This is a step towards systematically identifying instanton contributions in real-time path integrals. In <a href="https://arxiv.org/abs/2610.22767">recent work</a> with Samuel Crew, I developed an algebraic way to obtain the input for this rule: a finite-dimensional Gauss&ndash;Manin system generates the asymptotic expansions of all saddle points, and the monodromy of its Borel transform determines the Stokes constants and hence the adjacency of the saddles. Combined with the South-East rule, this yields superasymptotic and hyperasymptotic approximations without computing any gradient flows; the method is implemented in the Julia package Resurgence.jl. With Samuel Crew and Ue-Li Pen I also applied these ideas to <a href="https://arxiv.org/abs/2602.21493">wave optics in astronomy</a>, deriving the refractive expansion to all orders and resumming it to describe lensing at all frequencies.
-    </p>
-
-    <div class="clear"></div>
-
-    <h2 id="wave-optics">Wave optics in astronomy</h2>
-    <figure class="float-right">
-      <img src="Job_Feldbrugge_files/web/Binary_Lens.jpg" alt="Wave-optics intensity pattern of a binary gravitational lens, with interference fringes inside the caustic marked by a dotted white curve" width="625" height="845" loading="lazy">
-      <figcaption>Intensity pattern of a binary gravitational lens in wave optics, with lens masses in a 1:2 ratio separated by one Einstein radius. The dotted white curve is the caustic of geometric optics.</figcaption>
-    </figure>
-    <p>
-      When the wavelength of light is not small compared to the scales of a lens, geometric optics fails and lensing becomes an interference problem described by a Fresnel&ndash;Kirchhoff integral. This regime is directly relevant for radio astronomy, including pulsar scintillation and fast radio bursts, and for the gravitational lensing of gravitational waves.
-    </p>
-    <p>
-      I developed numerical methods based on Picard&ndash;Lefschetz theory for <a href="https://arxiv.org/abs/1909.04632">oscillatory path integrals in radio astronomy</a>, and applied them to <a href="https://arxiv.org/abs/2010.03089">multi-plane lensing</a>, <a href="https://arxiv.org/abs/2008.01154">binary lenses</a> and <a href="https://arxiv.org/abs/2410.03828">rotating stars</a>, and to the <a href="https://arxiv.org/abs/2204.12004">different regimes of astrophysical lensing</a>. Most recently we have used <a href="#resurgence">resurgence and hyperasymptotics</a> to describe wave-optics lensing at all frequencies. Related complex methods also give a way <a href="https://arxiv.org/abs/2304.13064">beyond the Limber approximation</a> for angular power spectra. Code for one-dimensional integrals is available at <a href="https://p-lpi.github.io/">p-lpi.github.io</a>.
-    </p>
-    <div class="clear"></div>
-
-    <h2 id="earlier">Earlier work</h2>
-    <p>
-      During my bachelor and master studies in Groningen I studied the <b>topology of Gaussian random fields</b>, computing the statistics of connected components and loops (Betti numbers and persistence diagrams) of their excursion sets, with applications to the <a href="https://arxiv.org/abs/1908.01619">cosmic microwave background and large-scale structure</a> and the <a href="https://arxiv.org/abs/2011.12851">persistent homology of the cosmic web</a>. With Neil Turok and Ue-Li Pen I also studied the non-linear evolution of the photon&ndash;baryon fluid, showing that its many acoustic oscillations lead to weak <b>shock waves in the early universe</b>.
-    </p>
+</div>
+<h2 id="earlier">Earlier work</h2>
+<p>During my bachelor and master studies in Groningen I studied the <strong>topology of Gaussian random fields</strong>, computing the statistics of connected components and loops (Betti numbers and persistence diagrams) of their excursion sets, with applications to the <a href="https://arxiv.org/abs/1908.01619">cosmic microwave background and large-scale structure</a> and the <a href="https://arxiv.org/abs/2011.12851">persistent homology of the cosmic web</a>. With Neil Turok and Ue-Li Pen I also studied the non-linear evolution of the photon–baryon fluid, showing that its many acoustic oscillations lead to weak <strong>shock waves in the early universe</strong>.</p>
   </main>
 
   <footer class="site-footer">

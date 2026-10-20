@@ -117,26 +117,29 @@ p { margin: 0 0 16px; }
   text-align: center;
 }
 .role { font-family: var(--sans); font-size: 15px; color: var(--muted); margin-bottom: 20px; }
-address { font-style: normal; }
-.button-row { display: flex; flex-wrap: wrap; gap: 10px; margin: 8px 0 16px; font-family: var(--sans); font-size: 15px; }
+.role p { margin: 0; }
+address, .address { font-style: normal; }
+.button-row, .button-row p { display: flex; flex-wrap: wrap; gap: 10px; margin: 8px 0 16px; font-family: var(--sans); font-size: 15px; }
 .button-row a {
   border: 1px solid var(--rule);
   border-radius: 4px;
   padding: 6px 12px;
 }
 .button-row a:hover { border-color: var(--accent); text-decoration: none; }
+.button-row p { margin: 0; }
 
 /* Figures */
 figure { margin: 24px 0; }
 /* Some figures have transparent backgrounds with black axes; keep them legible in dark mode. */
 figure img { background: #fff; }
 figure img.framed { border: 2px solid #000; }
-figure.float-right { float: right; width: 40%; margin: 4px 0 16px 28px; }
+.float-right { float: right; width: 40%; margin: 4px 0 16px 28px; }
+.float-right figure { margin: 0; }
 figcaption { font-size: 15px; color: var(--muted); margin-top: 6px; }
 .clear { clear: both; }
 
 /* Publication lists */
-.pubs { list-style: none; padding: 0; margin: 0; }
+.pubs ul { list-style: none; padding: 0; margin: 0; }
 .pubs li { margin: 0 0 16px; padding-left: 0; }
 .pubs .title { font-weight: 600; }
 .pubs .venue { font-style: italic; }
@@ -158,5 +161,5 @@ figcaption { font-size: 15px; color: var(--muted); margin-top: 6px; }
   main { padding-top: 28px; }
   .intro { grid-template-columns: 1fr; gap: 20px; }
   .intro .portrait { max-width: 220px; }
-  figure.float-right { float: none; width: 100%; margin: 20px 0; }
+  .float-right { float: none; width: 100%; margin: 20px 0; }
 }
