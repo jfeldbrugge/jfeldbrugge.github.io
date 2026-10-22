@@ -166,3 +166,22 @@ figcaption { font-size: 15px; color: var(--muted); margin-top: 6px; }
   .intro .portrait { max-width: 220px; }
   .float-right { float: none; width: 100%; margin: 20px 0; }
 }
+
+/* Code blocks and link rows (Julia packages page) */
+pre {
+  background: var(--code-bg, #f4f2ee);
+  border: 1px solid var(--rule);
+  border-radius: 4px;
+  padding: 10px 14px;
+  overflow-x: auto;
+  font-size: 14px;
+  line-height: 1.5;
+}
+code { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; font-size: 0.9em; }
+pre code { font-size: inherit; color: var(--text); }
+pre code a { color: inherit; }
+.links { font-family: var(--sans); font-size: 15px; margin: 4px 0 8px; }
+.links p { margin: 0; }
+@media (prefers-color-scheme: dark) {
+  :root { --code-bg: #1f2227; }
+}

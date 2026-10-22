@@ -1,4 +1,4 @@
-PAGES = index research publications
+PAGES = index research publications packages
 HTML  = $(addsuffix .html,$(PAGES))
 
 all: compile
