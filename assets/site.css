@@ -89,6 +89,8 @@ img { max-width: 100%; height: auto; display: block; }
 main { padding-top: 40px; padding-bottom: 56px; }
 
 h1, h2, h3 { font-weight: 600; line-height: 1.25; scroll-margin-top: 80px; }
+h1 a, h2 a, h3 a { color: inherit; }
+h1 a:hover, h2 a:hover, h3 a:hover { color: inherit; text-decoration: underline; }
 h1 { font-size: 34px; margin: 0 0 24px; }
 h2 {
   font-size: 24px;

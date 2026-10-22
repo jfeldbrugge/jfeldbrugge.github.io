@@ -11,7 +11,7 @@ updated: October 2026
 Open-source Julia packages that accompany my research. Each package is on GitHub, and the registered packages can be installed directly from the Julia package manager.
 :::
 
-## Resurgence.jl {#resurgence}
+## [Resurgence.jl](https://github.com/jfeldbrugge/Resurgence.jl) {#resurgence}
 
 ::: float-right
 ![The adjacency graph of the Pearcey integral: the three saddle points in the Borel plane, with every edge labelled by its Stokes constant.](Job_Feldbrugge_files/web/packages/Resurgence.png){alt="Adjacency graph of three saddle points in the Borel plane, with Stokes constants on the edges" width="910" height="890" loading="lazy"}
@@ -32,7 +32,7 @@ pkg> add https://github.com/jfeldbrugge/Resurgence.jl
 ::: clear
 :::
 
-## PicardLefschetzIntegration.jl {#picard-lefschetz}
+## [PicardLefschetzIntegration.jl](https://github.com/jfeldbrugge/PicardLefschetzIntegration.jl) {#picard-lefschetz}
 
 ::: float-right
 ![Intensity of a one-dimensional Lorentzian lens in wave optics.](Job_Feldbrugge_files/web/packages/PicardLefschetzIntegration.png){alt="Interference pattern of a one-dimensional Lorentzian lens" width="910" height="890" loading="lazy"}
@@ -51,7 +51,7 @@ pkg> add PicardLefschetzIntegration
 ::: clear
 :::
 
-## PhaseSpaceDTFE.jl {#phase-space-dtfe}
+## [PhaseSpaceDTFE.jl](https://github.com/jfeldbrugge/PhaseSpaceDTFE.jl) {#phase-space-dtfe}
 
 ![The density field of an N-body simulation, estimated with the phase-space Delaunay tessellation field estimator.](Job_Feldbrugge_files/web/packages/PhaseSpaceDTFE.jpg){alt="Density field of the cosmic web in an N-body simulation" width="1600" height="376" loading="lazy"}
 
@@ -65,7 +65,7 @@ Estimates the density and velocity fields of an N-body simulation with the phase
 pkg> add PhaseSpaceDTFE
 ```
 
-## Nbody2D.jl {#nbody2d}
+## [Nbody2D.jl](https://github.com/jfeldbrugge/Nbody2D.jl) {#nbody2d}
 
 ::: float-right
 ![The density field of a two-dimensional N-body simulation.](Job_Feldbrugge_files/web/packages/Nbody2D.jpg){alt="Density field of a two-dimensional cosmological N-body simulation showing the cosmic web" width="520" height="505" loading="lazy"}
@@ -84,7 +84,7 @@ pkg> add Nbody2D
 ::: clear
 :::
 
-## DiscreteNaturalNeighbors.jl {#discrete-natural-neighbors}
+## [DiscreteNaturalNeighbors.jl](https://github.com/benhertzsch/DiscreteNaturalNeighbors.jl) {#discrete-natural-neighbors}
 
 ::: float-right
 ![Discrete natural neighbour interpolation: the weights of the data points *p*~1~, *p*~2~ and *p*~3~ at the site *x*~*i*~ follow from in-cell counts on a grid of interpolation sites.](Job_Feldbrugge_files/web/packages/DiscreteNaturalNeighbors.png){alt="Voronoi cells of scattered data points with a grid of interpolation sites and the overlap regions of three neighbours" width="803" height="798" loading="lazy"}
