@@ -1,4 +1,4 @@
-PAGES = index research publications packages
+PAGES = index research publications packages students
 HTML  = $(addsuffix .html,$(PAGES))
 
 # Changes whenever site.css changes, so browsers fetch the new stylesheet
