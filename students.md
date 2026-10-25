@@ -34,7 +34,7 @@ PhD, master and bachelor students I have advised or co-advised, with their proje
 ## Master students {#master}
 
 - **Guilherme Garcia**, University of Copenhagen, 2026–present (ongoing collaboration). Previously his MPhys project at the University of Edinburgh, 2025–2026 (advisor): *Constrained non-Gaussian fields.*
-- **Joanna Chan**, Singapore, 2026–present (ongoing collaboration, as an independent scientist). *Properties of the caustic skeleton in scale space.* Previously her master's project at the University of Edinburgh, 2025–2026.
+- **Joanna Chan**, Singapore, 2026–present (ongoing collaboration, as an independent scientist). *Properties of the caustic skeleton in scale space.* Previously her master's project at the University of Edinburgh, 2025–2026 (advisor).
 - **Maé Rodriguez**, University of Edinburgh, 2024 (advisor). *Hamiltonian Monte Carlo sampling of primordial caustic constraints.*
 - **Vera Li**, University of Edinburgh, 2023 (advisor). *The caustic skeleton and redshift space distortions.*
 - **Yihan Yan**, University of Waterloo, 2022–2023 (advisor). *Statistics of critical points in eigenvalue fields.* [Paper: [Statistics of tidal and deformation eigenvalue fields](https://arxiv.org/abs/2301.07200)]{.links}
