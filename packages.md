@@ -2,7 +2,7 @@
 pagetitle: Julia packages · Job Leon Feldbrugge
 description: "Julia packages by Job Leon Feldbrugge: resurgence and Picard-Lefschetz methods for oscillatory integrals, the phase-space Delaunay tessellation field estimator, and two-dimensional cosmological N-body simulations."
 nav-packages: true
-updated: October 2026
+updated: November 2026
 ---
 
 # Julia packages
@@ -11,7 +11,7 @@ updated: October 2026
 Open-source Julia packages that accompany my research. Each package is on GitHub, and the registered packages can be installed directly from the Julia package manager.
 :::
 
-## [Resurgence.jl](https://github.com/jfeldbrugge/Resurgence.jl) {#resurgence}
+## [IntegralResurgence.jl](https://github.com/jfeldbrugge/IntegralResurgence.jl) {#integral-resurgence}
 
 ::: float-right
 ![The adjacency graph of the Pearcey integral: the three saddle points in the Borel plane, with every edge labelled by its Stokes constant.](Job_Feldbrugge_files/web/packages/Resurgence.png){alt="Adjacency graph of three saddle points in the Borel plane, with Stokes constants on the edges" width="910" height="890" loading="lazy"}
@@ -20,13 +20,13 @@ Open-source Julia packages that accompany my research. Each package is on GitHub
 Asymptotic evaluation of multidimensional oscillatory integrals with polynomial or rational exponents using resurgence. Integration by parts and Brieskorn reduction give the Gauss–Manin system of the exponent, which generates the asymptotic series of all saddle points. The monodromy of its Borel transform yields the Stokes constants and hence the adjacency of the saddle points. Combined with the [South-East rule](https://arxiv.org/abs/2606.28271), this identifies the relevant saddle points and gives superasymptotic and hyperasymptotic approximations without computing steepest-descent manifolds. The package accompanies [Asymptotic evaluation of multidimensional oscillatory integrals](https://arxiv.org/abs/2610.22767).
 
 ::: links
-[GitHub](https://github.com/jfeldbrugge/Resurgence.jl)
+[GitHub](https://github.com/jfeldbrugge/IntegralResurgence.jl) · [Zenodo](https://doi.org/10.5281/zenodo.23557502)
 :::
 
 Not yet in the General registry; install it from GitHub:
 
 ```julia
-pkg> add https://github.com/jfeldbrugge/Resurgence.jl
+pkg> add https://github.com/jfeldbrugge/IntegralResurgence.jl
 ```
 
 ::: clear
