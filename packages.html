@@ -32,7 +32,7 @@
   <main class="wrap">
 <h1 id="julia-packages">Julia packages</h1>
 <div class="lead">
-<p>Open-source Julia packages that accompany my research. Each package is on GitHub, and the registered packages can be installed directly from the Julia package manager.</p>
+<p>Open-source Julia packages that accompany my research. Each package lives on GitHub and installs directly from the Julia package manager.</p>
 </div>
 <h2 id="integral-resurgence"><a href="https://github.com/jfeldbrugge/IntegralResurgence.jl">IntegralResurgence.jl</a></h2>
 <div class="float-right">
@@ -43,10 +43,9 @@
 </div>
 <p>Asymptotic evaluation of multidimensional oscillatory integrals with polynomial or rational exponents using resurgence. Integration by parts and Brieskorn reduction give the Gauss–Manin system of the exponent, which generates the asymptotic series of all saddle points. The monodromy of its Borel transform yields the Stokes constants and hence the adjacency of the saddle points. Combined with the <a href="https://arxiv.org/abs/2606.28271">South-East rule</a>, this identifies the relevant saddle points and gives superasymptotic and hyperasymptotic approximations without computing steepest-descent manifolds. The package accompanies <a href="https://arxiv.org/abs/2610.22767">Asymptotic evaluation of multidimensional oscillatory integrals</a>.</p>
 <div class="links">
-<p><a href="https://github.com/jfeldbrugge/IntegralResurgence.jl">GitHub</a> · <a href="https://doi.org/10.5281/zenodo.23557502">Zenodo</a></p>
+<p><a href="https://github.com/jfeldbrugge/IntegralResurgence.jl">GitHub</a> · <a href="https://jfeldbrugge.github.io/IntegralResurgence.jl/stable/">Documentation</a> · <a href="https://doi.org/10.5281/zenodo.23557502">Zenodo</a></p>
 </div>
-<p>Not yet in the General registry; install it from GitHub:</p>
-<div class="sourceCode" id="cb1"><pre class="sourceCode julia"><code class="sourceCode julia"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a>pkg<span class="op">&gt;</span> add https<span class="op">://</span>github.com<span class="op">/</span>jfeldbrugge<span class="op">/</span>IntegralResurgence.jl</span></code></pre></div>
+<div class="sourceCode" id="cb1"><pre class="sourceCode julia"><code class="sourceCode julia"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a>pkg<span class="op">&gt;</span> add IntegralResurgence</span></code></pre></div>
 <div class="clear">
 
 </div>
@@ -59,7 +58,7 @@
 </div>
 <p>Numerical evaluation of multidimensional oscillatory integrals with meromorphic exponents using Picard–Lefschetz theory. The integration domain is deformed in the complex plane onto the Lefschetz thimbles, where the integral converges absolutely and can be evaluated efficiently. It is a more accessible Julia implementation of the method behind my C++ <a href="https://p-lpi.github.io/">Picard–Lefschetz code</a>, with applications to <a href="research.html#wave-optics">wave optics in astronomy</a>.</p>
 <div class="links">
-<p><a href="https://github.com/jfeldbrugge/PicardLefschetzIntegration.jl">GitHub</a> · <a href="https://jfeldbrugge.github.io/PicardLefschetzIntegration.jl/stable/">Documentation</a></p>
+<p><a href="https://github.com/jfeldbrugge/PicardLefschetzIntegration.jl">GitHub</a> · <a href="https://jfeldbrugge.github.io/PicardLefschetzIntegration.jl/stable/">Documentation</a> · <a href="https://doi.org/10.5281/zenodo.20683184">Zenodo</a></p>
 </div>
 <div class="sourceCode" id="cb2"><pre class="sourceCode julia"><code class="sourceCode julia"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a>pkg<span class="op">&gt;</span> add PicardLefschetzIntegration</span></code></pre></div>
 <div class="clear">
@@ -72,7 +71,7 @@
 </figure>
 <p>Estimates the density and velocity fields of an N-body simulation with the phase-space Delaunay tessellation field estimator, which follows the dark matter sheet in phase space and therefore resolves the multi-stream regions of the cosmic web. The package accompanies the paper <a href="https://arxiv.org/abs/2402.16234">Phase-space Delaunay tessellation field estimator</a>, published in Monthly Notices of the Royal Astronomical Society.</p>
 <div class="links">
-<p><a href="https://github.com/jfeldbrugge/PhaseSpaceDTFE.jl">GitHub</a> · <a href="https://jfeldbrugge.github.io/PhaseSpaceDTFE.jl/stable/">Documentation</a></p>
+<p><a href="https://github.com/jfeldbrugge/PhaseSpaceDTFE.jl">GitHub</a> · <a href="https://jfeldbrugge.github.io/PhaseSpaceDTFE.jl/stable/">Documentation</a> · <a href="https://doi.org/10.5281/zenodo.16637561">Zenodo</a></p>
 </div>
 <div class="sourceCode" id="cb3"><pre class="sourceCode julia"><code class="sourceCode julia"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a>pkg<span class="op">&gt;</span> add PhaseSpaceDTFE</span></code></pre></div>
 <h2 id="nbody2d"><a href="https://github.com/jfeldbrugge/Nbody2D.jl">Nbody2D.jl</a></h2>
@@ -84,7 +83,7 @@
 </div>
 <p>A particle-mesh code for two-dimensional cosmological N-body simulations, inspired by Johan Hidding’s <a href="https://zenodo.org/records/4158731">nbody2d</a> Python code. It is a quick environment to learn and experiment with cosmological N-body simulations: it samples unconstrained and constrained Gaussian random fields as initial conditions, evolves them to the present epoch, and estimates the density, velocity and number-of-streams fields with the phase-space Delaunay tessellation field estimator.</p>
 <div class="links">
-<p><a href="https://github.com/jfeldbrugge/Nbody2D.jl">GitHub</a> · <a href="https://jfeldbrugge.github.io/Nbody2D.jl/stable/">Documentation</a></p>
+<p><a href="https://github.com/jfeldbrugge/Nbody2D.jl">GitHub</a> · <a href="https://jfeldbrugge.github.io/Nbody2D.jl/stable/">Documentation</a> · <a href="https://doi.org/10.5281/zenodo.20115154">Zenodo</a></p>
 </div>
 <div class="sourceCode" id="cb4"><pre class="sourceCode julia"><code class="sourceCode julia"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a>pkg<span class="op">&gt;</span> add Nbody2D</span></code></pre></div>
 <div class="clear">

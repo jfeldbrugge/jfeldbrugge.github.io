@@ -8,7 +8,7 @@ updated: November 2026
 # Julia packages
 
 ::: lead
-Open-source Julia packages that accompany my research. Each package is on GitHub, and the registered packages can be installed directly from the Julia package manager.
+Open-source Julia packages that accompany my research. Each package lives on GitHub and installs directly from the Julia package manager.
 :::
 
 ## [IntegralResurgence.jl](https://github.com/jfeldbrugge/IntegralResurgence.jl) {#integral-resurgence}
@@ -20,13 +20,11 @@ Open-source Julia packages that accompany my research. Each package is on GitHub
 Asymptotic evaluation of multidimensional oscillatory integrals with polynomial or rational exponents using resurgence. Integration by parts and Brieskorn reduction give the Gauss–Manin system of the exponent, which generates the asymptotic series of all saddle points. The monodromy of its Borel transform yields the Stokes constants and hence the adjacency of the saddle points. Combined with the [South-East rule](https://arxiv.org/abs/2606.28271), this identifies the relevant saddle points and gives superasymptotic and hyperasymptotic approximations without computing steepest-descent manifolds. The package accompanies [Asymptotic evaluation of multidimensional oscillatory integrals](https://arxiv.org/abs/2610.22767).
 
 ::: links
-[GitHub](https://github.com/jfeldbrugge/IntegralResurgence.jl) · [Zenodo](https://doi.org/10.5281/zenodo.23557502)
+[GitHub](https://github.com/jfeldbrugge/IntegralResurgence.jl) · [Documentation](https://jfeldbrugge.github.io/IntegralResurgence.jl/stable/) · [Zenodo](https://doi.org/10.5281/zenodo.23557502)
 :::
 
-Not yet in the General registry; install it from GitHub:
-
 ```julia
-pkg> add https://github.com/jfeldbrugge/IntegralResurgence.jl
+pkg> add IntegralResurgence
 ```
 
 ::: clear
@@ -41,7 +39,7 @@ pkg> add https://github.com/jfeldbrugge/IntegralResurgence.jl
 Numerical evaluation of multidimensional oscillatory integrals with meromorphic exponents using Picard–Lefschetz theory. The integration domain is deformed in the complex plane onto the Lefschetz thimbles, where the integral converges absolutely and can be evaluated efficiently. It is a more accessible Julia implementation of the method behind my C++ [Picard–Lefschetz code](https://p-lpi.github.io/), with applications to [wave optics in astronomy](research.html#wave-optics).
 
 ::: links
-[GitHub](https://github.com/jfeldbrugge/PicardLefschetzIntegration.jl) · [Documentation](https://jfeldbrugge.github.io/PicardLefschetzIntegration.jl/stable/)
+[GitHub](https://github.com/jfeldbrugge/PicardLefschetzIntegration.jl) · [Documentation](https://jfeldbrugge.github.io/PicardLefschetzIntegration.jl/stable/) · [Zenodo](https://doi.org/10.5281/zenodo.20683184)
 :::
 
 ```julia
@@ -58,7 +56,7 @@ pkg> add PicardLefschetzIntegration
 Estimates the density and velocity fields of an N-body simulation with the phase-space Delaunay tessellation field estimator, which follows the dark matter sheet in phase space and therefore resolves the multi-stream regions of the cosmic web. The package accompanies the paper [Phase-space Delaunay tessellation field estimator](https://arxiv.org/abs/2402.16234), published in Monthly Notices of the Royal Astronomical Society.
 
 ::: links
-[GitHub](https://github.com/jfeldbrugge/PhaseSpaceDTFE.jl) · [Documentation](https://jfeldbrugge.github.io/PhaseSpaceDTFE.jl/stable/)
+[GitHub](https://github.com/jfeldbrugge/PhaseSpaceDTFE.jl) · [Documentation](https://jfeldbrugge.github.io/PhaseSpaceDTFE.jl/stable/) · [Zenodo](https://doi.org/10.5281/zenodo.16637561)
 :::
 
 ```julia
@@ -74,7 +72,7 @@ pkg> add PhaseSpaceDTFE
 A particle-mesh code for two-dimensional cosmological N-body simulations, inspired by Johan Hidding's [nbody2d](https://zenodo.org/records/4158731) Python code. It is a quick environment to learn and experiment with cosmological N-body simulations: it samples unconstrained and constrained Gaussian random fields as initial conditions, evolves them to the present epoch, and estimates the density, velocity and number-of-streams fields with the phase-space Delaunay tessellation field estimator.
 
 ::: links
-[GitHub](https://github.com/jfeldbrugge/Nbody2D.jl) · [Documentation](https://jfeldbrugge.github.io/Nbody2D.jl/stable/)
+[GitHub](https://github.com/jfeldbrugge/Nbody2D.jl) · [Documentation](https://jfeldbrugge.github.io/Nbody2D.jl/stable/) · [Zenodo](https://doi.org/10.5281/zenodo.20115154)
 :::
 
 ```julia

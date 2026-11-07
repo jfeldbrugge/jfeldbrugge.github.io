@@ -2,7 +2,7 @@
 pagetitle: Publications · Job Leon Feldbrugge
 description: "Publications and theses of Job Leon Feldbrugge: real-time path integrals, wave optics, the caustic skeleton of the cosmic web, quantum cosmology and topology of random fields."
 nav-publications: true
-updated: October 2026
+updated: November 2026
 ---
 
 # Publications
@@ -21,11 +21,11 @@ Also available on [arXiv](https://arxiv.org/search/?searchtype=author&query=Feld
 4. B. Hertzsch, **J. Feldbrugge**, R. van de Weygaert, [Galaxy populations in the IllustrisTNG caustic skeleton](https://arxiv.org/abs/2604.18209){.title}. [Monthly Notices of the Royal Astronomical Society]{.venue} (2026). [arXiv:[2604.18209](https://arxiv.org/abs/2604.18209) \[astro-ph.CO\]]{.links}
 5. **J. Feldbrugge**, S. Crew, U.-L. Pen, [Resurgence and hyperasymptotics in wave optics astronomy](https://arxiv.org/abs/2602.21493){.title}. [Journal of Cosmology and Astroparticle Physics]{.venue} (2026). [arXiv:[2602.21493](https://arxiv.org/abs/2602.21493) \[astro-ph.CO\]]{.links}
 6. A. Weber, **J. Feldbrugge**, E. Pisanty, [A universal approach to saddle-point methods in attosecond science](https://arxiv.org/abs/2510.12545){.title}. [Physical Review A]{.venue} (2026). [arXiv:[2510.12545](https://arxiv.org/abs/2510.12545) \[quant-ph\]]{.links}
+7. B. Hertzsch, **J. Feldbrugge**, M. Rodriguez, R. van de Weygaert, [A new recipe for caustic pancakes: on the reality of walls in the cosmic web](https://arxiv.org/abs/2510.02419){.title}. [Journal of Cosmology and Astroparticle Physics]{.venue} (2026). [arXiv:[2510.02419](https://arxiv.org/abs/2510.02419) \[astro-ph.CO\]]{.links}
+8. **J. Feldbrugge**, U.-L. Pen, [The real-time Feynman path integral for step potentials](https://arxiv.org/abs/2508.17578){.title}. [Annals of Physics]{.venue} (2026). [arXiv:[2508.17578](https://arxiv.org/abs/2508.17578) \[quant-ph\]]{.links}
 
 ### 2025
 
-7. B. Hertzsch, **J. Feldbrugge**, M. Rodriguez, R. van de Weygaert, [A new recipe for caustic pancakes: on the reality of walls in the cosmic web](https://arxiv.org/abs/2510.02419){.title}. [Journal of Cosmology and Astroparticle Physics]{.venue} (2025). [arXiv:[2510.02419](https://arxiv.org/abs/2510.02419) \[astro-ph.CO\]]{.links}
-8. **J. Feldbrugge**, U.-L. Pen, [The real-time Feynman path integral for step potentials](https://arxiv.org/abs/2508.17578){.title}. [Annals of Physics]{.venue} (2025). [arXiv:[2508.17578](https://arxiv.org/abs/2508.17578) \[quant-ph\]]{.links}
 9. **J. Feldbrugge**, J. Y. L. Jones, [Efficient evaluation of real-time path integrals](https://arxiv.org/abs/2501.16323){.title}. [Physical Review D]{.venue} (2025). [arXiv:[2501.16323](https://arxiv.org/abs/2501.16323) \[quant-ph\]]{.links}
 10. B. Bonga, **J. Feldbrugge**, A. Metidieri, [Wave optics for rotating stars](https://arxiv.org/abs/2410.03828){.title}. [Physical Review D]{.venue} (2025). [arXiv:[2410.03828](https://arxiv.org/abs/2410.03828) \[astro-ph.CO\]]{.links}
 11. **J. Feldbrugge**, R. van de Weygaert, [What makes a cosmic filament? The dynamical origin and identity of filaments I. Fundamentals in 2D](https://arxiv.org/abs/2405.20475){.title}. [Monthly Notices of the Royal Astronomical Society]{.venue} (2025). [arXiv:[2405.20475](https://arxiv.org/abs/2405.20475) \[astro-ph.CO\]]{.links}
@@ -42,10 +42,7 @@ Also available on [arXiv](https://arxiv.org/search/?searchtype=author&query=Feld
 19. **J. Feldbrugge**, U.-L. Pen, N. Turok, [Oscillatory path integrals for radio astronomy](https://arxiv.org/abs/1909.04632){.title}. [Annals of Physics]{.venue} (2023). [arXiv:[1909.04632](https://arxiv.org/abs/1909.04632) \[astro-ph.HE\]]{.links}
 20. **J. Feldbrugge**, [Multi-plane lensing in wave optics](https://arxiv.org/abs/2010.03089){.title}. [Monthly Notices of the Royal Astronomical Society]{.venue} (2023). [arXiv:[2010.03089](https://arxiv.org/abs/2010.03089) \[astro-ph.CO\]]{.links}
 21. **J. Feldbrugge**, N. Turok, [Existence of real time quantum path integrals](https://arxiv.org/abs/2207.12798){.title}. [Annals of Physics]{.venue} (2023). [arXiv:[2207.12798](https://arxiv.org/abs/2207.12798) \[hep-th\]]{.links}
-
-### 2022
-
-22. D. L. Jow, U.-L. Pen, **J. Feldbrugge**, [Regimes in astrophysical lensing: refractive optics, diffractive optics, and the Fresnel scale](https://arxiv.org/abs/2204.12004){.title}. [Monthly Notices of the Royal Astronomical Society]{.venue} (2022). [arXiv:[2204.12004](https://arxiv.org/abs/2204.12004) \[astro-ph.CO\]]{.links}
+22. D. L. Jow, U.-L. Pen, **J. Feldbrugge**, [Regimes in astrophysical lensing: refractive optics, diffractive optics, and the Fresnel scale](https://arxiv.org/abs/2204.12004){.title}. [Monthly Notices of the Royal Astronomical Society]{.venue} (2023). [arXiv:[2204.12004](https://arxiv.org/abs/2204.12004) \[astro-ph.CO\]]{.links}
 
 ### 2021
 
@@ -76,9 +73,9 @@ Also available on [arXiv](https://arxiv.org/search/?searchtype=author&query=Feld
 
 33. **J. Feldbrugge**, J. Hidding, R. van de Weygaert, [Statistics of caustics in large-scale structure formation](https://arxiv.org/abs/1412.5121){.title}. [Proceedings of the International Astronomical Union, IAU Symposium 308]{.venue} (2016). [arXiv:[1412.5121](https://arxiv.org/abs/1412.5121) \[astro-ph.CO\]]{.links}
 
-### 2013
+### 2011
 
-34. R. van de Weygaert, G. Vegter, H. Edelsbrunner, B. J. T. Jones, P. Pranav, C. Park, W. Hellwing, B. Eldering, N. Kruithof, E. G. P. Bos, J. Hidding, **J. Feldbrugge**, E. ten Have, M. van Engelen, M. Caroli, M. Teillaud, [Alpha, Betti and the megaparsec universe: on the topology of the cosmic web](https://arxiv.org/abs/1306.3640){.title}. [Transactions on Computational Science XIV, Lecture Notes in Computer Science 6970]{.venue} (2013). [arXiv:[1306.3640](https://arxiv.org/abs/1306.3640) \[astro-ph.CO\]]{.links}
+34. R. van de Weygaert, G. Vegter, H. Edelsbrunner, B. J. T. Jones, P. Pranav, C. Park, W. A. Hellwing, B. Eldering, N. Kruithof, E. G. P. Bos, J. Hidding, **J. Feldbrugge**, E. ten Have, M. van Engelen, M. Caroli, M. Teillaud, [Alpha, Betti and the megaparsec universe: on the topology of the cosmic web](https://arxiv.org/abs/1306.3640){.title}. [Transactions on Computational Science XIV, Lecture Notes in Computer Science 6970]{.venue} (2011). [arXiv:[1306.3640](https://arxiv.org/abs/1306.3640) \[astro-ph.CO\]]{.links}
 
 ## Theses {#theses}
 
