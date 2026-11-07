@@ -1,6 +1,6 @@
 ---
 pagetitle: Julia packages · Job Leon Feldbrugge
-description: "Julia packages by Job Leon Feldbrugge: resurgence and Picard-Lefschetz methods for oscillatory integrals, the phase-space Delaunay tessellation field estimator, and two-dimensional cosmological N-body simulations."
+description: "Julia packages by Job Leon Feldbrugge: resurgence and Picard-Lefschetz methods for oscillatory integrals, the phase-space Delaunay tessellation field estimator, two-dimensional cosmological N-body simulations, and high-order harmonic generation."
 nav-packages: true
 updated: November 2026
 ---
@@ -100,3 +100,17 @@ pkg> add DiscreteNaturalNeighbors
 
 ::: clear
 :::
+
+## [HHGsimPL.jl](https://github.com/anneaux/HHGsimPL.jl) {#hhgsimpl}
+
+Simulation of high-order harmonic generation with Picard–Lefschetz integration, developed by Anne Weber in collaboration with me. In the strong-field approximation, the harmonic dipole takes the form of an oscillatory integral over the times of ionization and recombination. The code deforms this integral onto the Lefschetz thimbles of its saddle points, the complex quantum trajectories of the electron, and selects the trajectories that contribute. A Jupyter notebook in the repository shows how to compute the dipoles. The code accompanies the paper [Universal approach to saddle-point methods in attosecond science](https://arxiv.org/abs/2510.12545), published in Physical Review A.
+
+::: links
+[GitHub](https://github.com/anneaux/HHGsimPL.jl) · [Zenodo](https://doi.org/10.5281/zenodo.18504394)
+:::
+
+Not yet in the General registry; install it from GitHub:
+
+```julia
+pkg> add https://github.com/anneaux/HHGsimPL.jl
+```

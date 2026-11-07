@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Julia packages · Job Leon Feldbrugge</title>
-  <meta name="description" content="Julia packages by Job Leon Feldbrugge: resurgence and Picard-Lefschetz methods for oscillatory integrals, the phase-space Delaunay tessellation field estimator, and two-dimensional cosmological N-body simulations.">
+  <meta name="description" content="Julia packages by Job Leon Feldbrugge: resurgence and Picard-Lefschetz methods for oscillatory integrals, the phase-space Delaunay tessellation field estimator, two-dimensional cosmological N-body simulations, and high-order harmonic generation.">
   <link rel="icon" type="image/png" sizes="32x32" href="Job_Feldbrugge_files/icon_ntu_32.png">
   <link rel="icon" type="image/png" sizes="180x180" href="Job_Feldbrugge_files/icon_ntu_180.png">
   <link rel="apple-touch-icon" href="Job_Feldbrugge_files/icon_ntu_180.png">
@@ -104,6 +104,13 @@
 <div class="clear">
 
 </div>
+<h2 id="hhgsimpl"><a href="https://github.com/anneaux/HHGsimPL.jl">HHGsimPL.jl</a></h2>
+<p>Simulation of high-order harmonic generation with Picard–Lefschetz integration, developed by Anne Weber in collaboration with me. In the strong-field approximation, the harmonic dipole takes the form of an oscillatory integral over the times of ionization and recombination. The code deforms this integral onto the Lefschetz thimbles of its saddle points, the complex quantum trajectories of the electron, and selects the trajectories that contribute. A Jupyter notebook in the repository shows how to compute the dipoles. The code accompanies the paper <a href="https://arxiv.org/abs/2510.12545">Universal approach to saddle-point methods in attosecond science</a>, published in Physical Review A.</p>
+<div class="links">
+<p><a href="https://github.com/anneaux/HHGsimPL.jl">GitHub</a> · <a href="https://doi.org/10.5281/zenodo.18504394">Zenodo</a></p>
+</div>
+<p>Not yet in the General registry; install it from GitHub:</p>
+<div class="sourceCode" id="cb6"><pre class="sourceCode julia"><code class="sourceCode julia"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a>pkg<span class="op">&gt;</span> add https<span class="op">://</span>github.com<span class="op">/</span>anneaux<span class="op">/</span>HHGsimPL.jl</span></code></pre></div>
   </main>
 
   <footer class="site-footer">
